@@ -1,0 +1,43 @@
+set up user name
+$ git config --global user.name "Shahriarsalman39"
+
+set up git email
+$git config --global user.email "shahriarsalman39@gmail.com"
+
+set up password
+
+$git config --global user.password ""
+
+Save the credentials
+
+$ git config --global credential.helper store
+
+check the credentials
+$ git config --list --show-origin
+
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin
+http://
+git push --set-upstream origin master
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Khandakerosman/AoyonSeleniumPractice.git
+git push --set-upstream origin master
+
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Shahriarsalman39/Practice2024JavaBasic.git
+git push -u origin main
