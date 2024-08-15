@@ -7,7 +7,7 @@ public class Array {
 		Array array = new Array();
 		array.countStudents();
 	}
-	
+	 
 	
 	public void countStudents() {
 		//String studentsOne="Oyon";

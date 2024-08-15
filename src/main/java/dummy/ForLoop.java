@@ -9,7 +9,6 @@ public class ForLoop {
 	}
 	
 	
-	
 	public void countApples() {
 		
 		//basic 
