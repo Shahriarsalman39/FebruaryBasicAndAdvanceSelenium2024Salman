@@ -32,7 +32,13 @@ public class ForLoop {
 			System.out.print(i);
 		}
 		
-		
+		System.out.println();
+		//basic continue
+		for (int i = 1; i <= 10; i++) {
+			if(i==5) {continue;}
+			
+			System.out.print(i);
+		}
 		
 		
 	}
