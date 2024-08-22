@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="findElements.FacebookLinks">
+      <class name="findElements.FbLinkPractice2">
         <methods>
-          <include name="openFacebbok"/>
-          <include name="linkTest"/>
-          <include name="closeFacebook"/>
+          <include name="fbOpen"/>
+          <include name="fbClose"/>
+          <include name="spc39"/>
         </methods>
-      </class> <!-- findElements.FacebookLinks -->
+      </class> <!-- findElements.FbLinkPractice2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

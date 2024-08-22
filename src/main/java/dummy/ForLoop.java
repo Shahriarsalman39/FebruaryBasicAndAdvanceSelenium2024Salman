@@ -34,6 +34,7 @@ public class ForLoop {
 		
 		System.out.println();
 		//basic continue
+		//That means only 5 is skip from the counting
 		for (int i = 1; i <= 10; i++) {
 			if(i==5) {continue;}
 			

@@ -19,9 +19,17 @@ public class FacebookLinks extends BaseTestWithIfandElse {
 	public void openFacebbok() {
 		openApplication();
 	}
-	
 	@Test
-	public void linkTest() {
+	public void linksTest() {
+		List<WebElement>links= driver.findElements(By.xpath("//*[@id='pageFooterChildren']/ul/li"));
+		System.out.println("how many links : "+links.size());
+		Assert.assertEquals(links.size(),32, "Link size does not match : ");
+		
+		for (int i = 0; i <= links.size(); i++) {
+			System.out.println( links.get(i).getText());}
+		}
+	
+	/*public void linkTest() {
 	
 	List<WebElement>links= driver.findElements(By.xpath("//*[@id='pageFooterChildren']/ul/li"));
 	System.out.println("how many links : "+links.size());
@@ -31,8 +39,29 @@ for (int i = 0; i <= links.size(); i++) {
 	System.out.println(links.get(i).getText());
 		
 }
+	}*/
+	
+	
+	
+	@Test
+	public void specificLinkTest2() {
+	 List<WebElement> languagesLink =driver.findElements(By.xpath("//*[@id='pageFooter']/ul/li"));
+	 for (int i = 0; i < languagesLink.size() ; i++) {
+		 String languageName =languagesLink.get(i).getText();
+		 System.out.println(languageName);
+		 
+		 if (languageName.equalsIgnoreCase("Fran�ais (France)")) {
+			 languagesLink.get(i).click();
+		}
+		 
 	}
-@Test
+	}
+	
+	
+	
+
+
+/*@Test
 	public void specificLinkTest() {
 		List<WebElement> languageLink= driver.findElements(By.xpath("//*[@id='pageFooter']/ul/li"));
 		for (int i = 0; i <languageLink.size(); i++) {
@@ -42,10 +71,8 @@ for (int i = 0; i <= links.size(); i++) {
 				languageLink.get(i).click();
 			}
 			break;
-		}
+		}*/
 		
-		
-	}
 	
 	
 	
