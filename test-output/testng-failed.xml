@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="locatorsAdv.DynamicXpath">
+      <class name="locatorForPractice.XpathLoopAndDynamicXpathForDarazBD">
         <methods>
-          <include name="openFacebook"/>
-          <include name="UsernameTest"/>
-          <include name="closeApplication"/>
+          <include name="closeFB"/>
+          <include name="basicXpath4"/>
+          <include name="openFB"/>
         </methods>
-      </class> <!-- locatorsAdv.DynamicXpath -->
+      </class> <!-- locatorForPractice.XpathLoopAndDynamicXpathForDarazBD -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
