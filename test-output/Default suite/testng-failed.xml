@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="locatorForPractice.XpathLoopAndDynamicXpathForDarazBD">
+      <class name="locatorForPractice.BasicXpathForQAELearn">
         <methods>
-          <include name="closeFB"/>
+          <include name="opendaraz"/>
+          <include name="closedaraz"/>
           <include name="basicXpath4"/>
-          <include name="openFB"/>
         </methods>
-      </class> <!-- locatorForPractice.XpathLoopAndDynamicXpathForDarazBD -->
+      </class> <!-- locatorForPractice.BasicXpathForQAELearn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-28T15:45:32 BDT" name="Default suite" finished-at="2024-08-28T15:46:00 BDT" duration-ms="27215">
+  <suite started-at="2024-08-31T23:36:24 BDT" name="Default suite" finished-at="2024-08-31T23:37:20 BDT" duration-ms="56063">
     <groups>
     </groups>
-    <test started-at="2024-08-28T15:45:32 BDT" name="Default test" finished-at="2024-08-28T15:46:00 BDT" duration-ms="27215">
-      <class name="locatorForPractice.XpathLoopAndDynamicXpathForDarazBD">
-        <test-method is-config="true" signature="opendaraz()[pri:0, instance:locatorForPractice.XpathLoopAndDynamicXpathForDarazBD@158d2680]" started-at="2024-08-28T15:45:33 BDT" name="opendaraz" finished-at="2024-08-28T15:45:59 BDT" duration-ms="26345" status="PASS">
+    <test started-at="2024-08-31T23:36:24 BDT" name="Default test" finished-at="2024-08-31T23:37:20 BDT" duration-ms="56063">
+      <class name="locatorForPractice.XpathLoopAndDynamicXpathForQaeLearn">
+        <test-method is-config="true" signature="openQAelearn()[pri:0, instance:locatorForPractice.XpathLoopAndDynamicXpathForQaeLearn@77847718]" started-at="2024-08-31T23:36:24 BDT" name="openQAelearn" finished-at="2024-08-31T23:37:16 BDT" duration-ms="51996" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- opendaraz -->
-        <test-method signature="xpathdynamic2()[pri:0, instance:locatorForPractice.XpathLoopAndDynamicXpathForDarazBD@158d2680]" started-at="2024-08-28T15:45:59 BDT" name="xpathdynamic2" finished-at="2024-08-28T15:45:59 BDT" duration-ms="303" status="PASS">
+        </test-method> <!-- openQAelearn -->
+        <test-method signature="xpathdynamic2()[pri:0, instance:locatorForPractice.XpathLoopAndDynamicXpathForQaeLearn@77847718]" started-at="2024-08-31T23:37:16 BDT" name="xpathdynamic2" finished-at="2024-08-31T23:37:20 BDT" duration-ms="3555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- xpathdynamic2 -->
-        <test-method is-config="true" signature="closedaraz()[pri:0, instance:locatorForPractice.XpathLoopAndDynamicXpathForDarazBD@158d2680]" started-at="2024-08-28T15:45:59 BDT" name="closedaraz" finished-at="2024-08-28T15:46:00 BDT" duration-ms="487" status="PASS">
+        <test-method is-config="true" signature="closeQaelearn()[pri:0, instance:locatorForPractice.XpathLoopAndDynamicXpathForQaeLearn@77847718]" started-at="2024-08-31T23:37:20 BDT" name="closeQaelearn" finished-at="2024-08-31T23:37:20 BDT" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closedaraz -->
-      </class> <!-- locatorForPractice.XpathLoopAndDynamicXpathForDarazBD -->
+        </test-method> <!-- closeQaelearn -->
+      </class> <!-- locatorForPractice.XpathLoopAndDynamicXpathForQaeLearn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
