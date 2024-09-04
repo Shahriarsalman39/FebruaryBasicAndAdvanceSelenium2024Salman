@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="locatorForPractice.BasicXpathForQAELearn">
+      <class name="dynamicCoding.DynamicLoginTest">
         <methods>
-          <include name="opendaraz"/>
-          <include name="closedaraz"/>
-          <include name="basicXpath4"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- locatorForPractice.BasicXpathForQAELearn -->
+      </class> <!-- dynamicCoding.DynamicLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

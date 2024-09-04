@@ -28,11 +28,7 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>May2024BasicSelenium</groupId>
-			<artifactId>May2024BasicSelenium</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 	</dependencies>
 
 
