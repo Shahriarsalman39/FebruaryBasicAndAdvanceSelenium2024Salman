@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dynamicCoding.DynamicLoginTest">
+      <class name="pageObjectModel.LoginTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="openFaceBook"/>
+          <include name="closeFaceBook"/>
+          <include name="validLoginTest"/>
         </methods>
-      </class> <!-- dynamicCoding.DynamicLoginTest -->
+      </class> <!-- pageObjectModel.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -31,5 +31,11 @@ public class ForLoopPractice {
 		for (int i = 1; i <= 50; i+=5) {
 			System.out.print(i);
 		}
+		for (int i = 0; i >=50; i+=2) {
+			if(i==12) {break;}
+				
+			
+			System.out.println(i);
+		}
 	}
 	}
