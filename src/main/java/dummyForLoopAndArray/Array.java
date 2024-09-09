@@ -1,4 +1,4 @@
-package dummy;
+package dummyForLoopAndArray;
 
 
 public class Array {

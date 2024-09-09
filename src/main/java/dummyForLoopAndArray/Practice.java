@@ -1,4 +1,4 @@
-package dummy;
+package dummyForLoopAndArray;
 
 public class Practice {
 public static void main(String[] args) {
